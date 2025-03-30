@@ -24,23 +24,24 @@ SpotifyClone is a full-stack web application that mimics the functionality of Sp
 
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js, Express
-- **Database:** PostgreSQL
-- **Authentication:** Firebase/Auth0
+- **Database:** MongoDB
+- **Cloud Storage:** Cloudinary
 
 ## Features
 
 - 🎵 Play/Pause songs
 - 🔍 Search for music
 - 📂 Create and manage playlists
-- 👤 User authentication
 
 ## Environment Variables
 
 Create a `.env` file in the root directory and add the following variables:
 
 ```plaintext
-DATABASE_URL=your_database_url
-FIREBASE_API_KEY=your_firebase_api_key
+MONGODB_URI=your_mongodb_uri
+CLOUDINARY_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
 ```
 
 ## Contributing
